@@ -1,0 +1,172 @@
+/* Main Container */
+.Container{
+    width: min(100%, 1440px);
+    margin: auto;
+    padding-top: 139px;
+
+}
+/* Header */
+header{
+    max-width: inherit;
+    width: inherit;
+    background-color: #372D23;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items:center;
+    z-index: 1;
+}
+.HeaderUl{
+    display: flex;
+    column-gap: 48px;
+}
+.HeaderText{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FCC21B;
+}
+.active{
+    color: #ED6C30;
+}
+.fa-bag-shopping{
+    font-size: 40px;
+    color: #FCC21B;
+}
+/*First Section */
+.Section1{
+    position: relative;
+    height: 640px;
+}
+.Section_1_Image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Section_1_Article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(762 / 1440 * 100%);
+    background-color: #FCC21B;
+    padding: 34px 40px;
+}
+.Sectio_1_Text{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 32px;
+    text-shadow: 0px 6px 4px #372D23;
+}
+.Sectio_1_Button{
+    border:3px solid #FFFFFF;
+    background-color: #FCC21B;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    width: 224px;
+    height: 52px;
+    /* tried with width:calc(224 / 1440 * 100%) but could not make it work the box didnt look the same*/
+    box-shadow: 0px 2px 4px  0px #000000D9;
+}
+/* Second Section */
+
+.Section2{
+    width: calc(1200 / 1440 * 100%);
+    margin:100px auto;
+    display: flex;
+}
+
+.Section_2_Container{
+    width: calc(700 / 1440 * 100%);
+}
+.Section_2_IMG{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Section_2_Article{
+    width: calc(400 / 1440 * 100%);
+    /* width: 400px; */
+    margin-left: 100px;
+}
+.Section_2_Title{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #372D23;
+}
+.Section_2_Text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #855C52;
+    margin-block: 40px;
+}
+.Section_2_Button{
+    border: none;
+    background-color: #ED6C30;
+    color: #FFFFFF;
+    width: 211px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+/* Footer */
+footer{
+    padding: 32px 80px;
+    background-color: #372D23;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.FooterLeftTitle{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.FooterLeftUl{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.LeftList{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FCC21B;
+}
+.FooterRightTitle{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+.FooterRightUl{
+    display: flex;
+    column-gap: 16px;
+}
+.Media{
+    font-size: 24px;
+    color: #FCC21B;
+}
