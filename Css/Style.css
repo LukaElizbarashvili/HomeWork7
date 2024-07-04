@@ -79,6 +79,10 @@ header{
     /* tried with width:calc(224 / 1440 * 100%) but could not make it work the box didnt look the same*/
     box-shadow: 0px 2px 4px  0px #000000D9;
 }
+.Button_:hover{
+    opacity: 0.7;
+    
+}
 /* Second Section */
 
 .Section2{
